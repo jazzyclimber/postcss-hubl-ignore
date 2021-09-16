@@ -1,6 +1,6 @@
 {
   "name": "@jazzyclimber/postcss-hubl-ignore",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Ignores hubl in CSS when using postcss",
   "license": "MIT",
   "repository": "jazzyclimber/postcss-hubl-ignore",

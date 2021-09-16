@@ -29,7 +29,7 @@ If you want to call a hubl variable you can by:
 `display: hubl("theme.displayvalue")`
 
 Which will translate into 
-`dispaly {{theme.dispalyvalue}}`
+`dispaly: {{theme.dispalyvalue}}`
 
 ---
 

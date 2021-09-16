@@ -23,3 +23,22 @@ module.exports = {
   ]
 };
 ```
+
+If you want to call a hubl variable you can by:
+
+`display: hubl("theme.displayvalue")`
+
+Which will translate into 
+`dispaly {{theme.dispalyvalue}}`
+
+---
+
+**The following feature will cause an error and is currently not working**
+In order to add hubl expressions such as for loops and if statements put them in comments
+
+`/* {% if statment here %} */`
+
+will translate into 
+
+`{% if statment here %}`
+

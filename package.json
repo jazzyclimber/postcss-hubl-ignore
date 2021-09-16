@@ -4,7 +4,7 @@
   "description": "Ignores hubl in CSS when using postcss",
   "license": "MIT",
   "repository": "jazzyclimber/postcss-hubl-ignore",
-  "main": "index.js",
+  "main": "postcss-hubl-add.js",
   "keywords": [
     "postcss-hubl-ignore",
     "npm",

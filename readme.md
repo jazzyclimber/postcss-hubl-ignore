@@ -15,11 +15,11 @@ Allows postcss to ignore hubl written inside of stylesheets.
 module.exports = {
   plugins: [
     //important to add this before any other plugins
-    require('postcss-hubl-ignore/postcss-hubl-remove'),
+    require('@jazzyclimber/postcss-hubl-ignore/postcss-hubl-remove'),
     //include other plugins here
     require('autoprefixer'),
     // important to put this at the end
-    require('postcss-hubl-ignore/post-css-hubl-add'),
+    require(@jazzyclimber/postcss-hubl-ignore/postcss-hubl-add'),
   ]
 };
 ```
